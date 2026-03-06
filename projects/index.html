@@ -17,24 +17,56 @@
         <a href="/contact/">Contact</a>
       </div>
     </nav>
+
     <h1>Projects</h1>
-    <p style="color:var(--muted)">Selected embedded systems, sensing, and edge AI work.</p>
+    <p class="eyebrow">Embedded systems • AI/ML • Computer vision • IoT</p>
+    <p style="color:var(--muted); max-width:760px;">
+      A selection of embedded systems, sensing, and edge AI projects with demo videos.
+    </p>
   </header>
 
   <main class="container">
-    <section class="grid">
-      <div class="card">
-        <h2><a href="/projects/mgwo-acetone.html">MgWO₄ Acetone Sensor</a></h2>
-        <p>Humidity-compensated response analysis for acetone measurements.</p>
+    <section class="projects-grid">
+
+      <div class="card project-card">
+        <h2>MgWO₄ Acetone Sensor Analysis</h2>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
+            title="MgWO4 Acetone Sensor Demo"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p>Humidity-compensated gas sensing workflow for acetone response analysis and signal interpretation.</p>
+        <p class="tags">MATLAB • Gas Sensor • Data Analysis</p>
       </div>
-      <div class="card">
-        <h2><a href="/projects/esp32-ble-logger.html">ESP32 BLE Logger</a></h2>
-        <p>Real-time sensor streaming + logging pipeline.</p>
+
+      <div class="card project-card">
+        <h2>ESP32 BLE Data Logger</h2>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
+            title="ESP32 BLE Logger Demo"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p>Wireless sensor acquisition and BLE-based real-time data logging for embedded monitoring applications.</p>
+        <p class="tags">ESP32 • BLE • Embedded C/C++</p>
       </div>
-      <div class="card">
-        <h2><a href="/projects/rpi-vision.html">Raspberry Pi Vision</a></h2>
-        <p>Camera pipeline + detection/inference deployment.</p>
+
+      <div class="card project-card">
+        <h2>Raspberry Pi Vision Pipeline</h2>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3"
+            title="Raspberry Pi Vision Demo"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p>Lightweight computer vision pipeline for image capture, processing, and edge inference on Raspberry Pi.</p>
+        <p class="tags">Raspberry Pi • OpenCV • TFLite</p>
       </div>
+
     </section>
   </main>
 
